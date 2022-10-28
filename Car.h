@@ -1,5 +1,5 @@
 class Car{
-    private:
+    protected:
         int price;
         int vinNumber;
         int emissions;
@@ -9,8 +9,8 @@ class Car{
         int get_price();
         int get_vinNumber();
         int get_emissions();
-        int set_price(int p);
-        int set_vinNumber(int vin);
-        int set_emissions(int e);
+        void set_price(int p);
+        void set_vinNumber(int vin);
+        void set_emissions(int e);
         ~Car();
 };

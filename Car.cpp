@@ -20,14 +20,14 @@ int Car::get_emissions(){
     return emissions;
 }
 
-int Car::set_price(int p){
+void Car::set_price(int p){
    price = p; 
 }
 
-int Car::set_vinNumber(int vin){
+void Car::set_vinNumber(int vin){
     vinNumber = vin;
 }
 
-int Car::set_emissions(int e){
+void Car::set_emissions(int e){
     emissions = e;
 }
