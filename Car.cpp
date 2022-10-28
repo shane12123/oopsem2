@@ -32,4 +32,4 @@ void Car::set_emissions(int e){
     emissions = e;
 }
 
-~Car(){}
+Car::~Car(){}
