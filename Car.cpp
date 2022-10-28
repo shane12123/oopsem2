@@ -2,6 +2,7 @@
 
 using namespace std;
 
+
 Car::Car(int price){
     this->price = price;
     vinNumber = 0;

@@ -1,9 +1,14 @@
+#pragma once
+
+using namespace std;
+
 class Car{
     protected:
         int price;
         int vinNumber;
         int emissions;
     public:
+        Car();
         Car(int price);
         virtual void drive(int kms) = 0;
         int get_price();
