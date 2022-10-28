@@ -31,3 +31,5 @@ void Car::set_vinNumber(int vin){
 void Car::set_emissions(int e){
     emissions = e;
 }
+
+~Car(){}
